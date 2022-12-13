@@ -1,0 +1,219 @@
+/* Inserting Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,100&family=Ubuntu&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-flow: column;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    text-align: center;
+    user-select: none;
+}
+
+
+
+
+
+
+#navbar {
+    width: 100%;
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -30px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    background-color: #de0031;
+    border-bottom: 2px solid black;
+    position: fixed;
+}
+
+.nav-links:hover {
+    background: linear-gradient(92.6deg, rgb(56, 24, 40) -10.7%, rgb(23, 148, 185) 100.2%);
+    font-weight:700;
+    
+
+}
+
+
+.nav-links {
+    margin: 0;
+    float: right;
+    font-size: 140%;
+    
+}
+
+    .nav-links a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: top ease 0.5s;
+        position: relative;
+    }
+
+        .nav-links a:hover {
+            top: -5px;
+        }
+
+
+
+header {
+    margin-top: 20%;
+    color: white;
+}
+
+#wel-title {
+    font-size: 380%;
+    font-weight: 700;
+}
+
+#wel-txt {
+    font-size: 150%;
+    color: white;
+    color: #ff0038;
+}
+
+#main {
+    width: auto;
+    background: linear-gradient(112.6deg, rgb(56, 24, 40) -10.7%, rgb(23, 148, 185) 100.2%);
+    margin-top: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-title {
+    font-size: 280%;
+    color: white;
+    margin-top: 7%;
+}
+
+hr {
+    margin-top: -25px;
+    width: 40%;
+}
+
+img {
+    height: 70%;
+    width: 60%;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+#main-projects {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.project-footer {
+    color: white;
+    font-weight: 700;
+    font-size: 140%;
+}
+
+
+.projects {
+    margin: 15px 15px 15px 15px;
+}
+
+
+#contact {
+    padding-top: 220px;
+    display: flex;
+    flex-direction: column;
+    height:auto;
+}
+
+
+#contact-title {
+    margin-top: -20px;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+
+#contact-txt {
+    margin-top: -3%;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#contact-me {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+li {
+    display: inline-block;
+    margin-top: 6%;
+    padding: 20px 30px;
+    font-size: 140%;
+    margin-left: 20px;
+}
+
+.contact-links {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    transition: top ease 0.5s;
+}
+
+i {
+    padding-top: 22px;
+    padding-right: 10px;
+    font-size: 110%;
+}
+
+.contact-links {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+
+
+    .contact-links:hover {
+        top: -10px;
+    }
+
+.project-footer {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+    .project-footer:hover {
+        top: 7px;
+    }
+
+@media(max-width:700px){
+
+    i {
+
+        font-size: 80%;
+    }
+
+    li {
+
+        padding: 10px 20px;
+        font-size: 100%;
+
+    }
+
+}
